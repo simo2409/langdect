@@ -11,7 +11,11 @@ To use it:
     
     l = LangDect.new('This is LangDect, it lives here in GitHub')
     l.lang['language']
-    >> 'en'
+    => "en"
+    
+    l = LangDect.new('Ciao! Io sono LangDect, io vivo in GitHub')
+    l.lang['language']
+    => "it"
 
 == Contributing to langdect
  
