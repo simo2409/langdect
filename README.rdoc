@@ -1,6 +1,6 @@
 = langdect
 
-Description goes here.
+A rubygem to detect the language of a text (using Google Language Detector)
 
 == Contributing to langdect
  
