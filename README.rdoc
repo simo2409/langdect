@@ -2,6 +2,17 @@
 
 A rubygem to detect the language of a text (using Google Language Detector)
 
+== How to use this little gem
+To install the gem:
+    gem install langdect
+To use it:
+    require 'rubygems'
+    require 'langdect'
+    
+    l = LangDect.new('This is LangDect, it lives here in GitHub')
+    l.lang['language']
+    >> 'en'
+
 == Contributing to langdect
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
